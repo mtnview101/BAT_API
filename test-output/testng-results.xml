@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99" started-at="2017-02-25T23:35:12Z" finished-at="2017-02-25T23:35:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99" started-at="2017-02-25T23:35:12Z" finished-at="2017-02-25T23:35:12Z">
+      <class name="core.XSDValidationTest">
+        <test-method status="PASS" signature="bm()[pri:0, instance:core.XSDValidationTest@c038203]" name="bm" is-config="true" duration-ms="12" started-at="2017-02-25T15:35:12Z" finished-at="2017-02-25T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test()[pri:0, instance:core.XSDValidationTest@c038203]" name="test" duration-ms="25" started-at="2017-02-25T15:35:12Z" finished-at="2017-02-25T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- core.XSDValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
