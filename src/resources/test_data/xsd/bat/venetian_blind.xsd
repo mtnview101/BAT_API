@@ -1,0 +1,17 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="list" type="listType"/>
+  <xs:complexType name="poetType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:date" name="dob"/>
+      <xs:element type="xs:byte" name="age"/>
+      <xs:element type="xs:string" name="nobel"/>
+    </xs:sequence>
+    <xs:attribute type="xs:int" name="id"/>
+  </xs:complexType>
+  <xs:complexType name="listType">
+    <xs:sequence>
+      <xs:element type="poetType" name="poet"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:productItemResponse xmlns:ns2="http://openapi.kohls.com/schema/error" xmlns:ns3="http://openapi.kohls.com/v1/schema/payload" xmlns:ns4="http://openapi.kohls.com/v1/schema/response" xmlns:ns5="http://openapi.kohls.com/v1/schema/merchantCategory" xmlns:ns6="http://openapi.kohls.com/v1/schema/sku" xmlns:ns7="http://openapi.kohls.com/v1/schema/product">
+    <count>1</count>
+    <limit>1</limit>
+    <offset>1</offset>
+    <ns3:payload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="productsPayload">
+        <products>
+            <product>
+                <altImages>
+                    <image>
+                        <altText>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</altText>
+                        <height>50</height>
+                        <url>https://media.kohlsimg.com/is/image/kohls/2010855_ALT?wid=50&amp;hei=50&amp;op_sharpen=1</url>
+                        <width>50</width>
+                    </image>
+                    <image>
+                        <altText>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</altText>
+                        <height>50</height>
+                        <url>https://media.kohlsimg.com/is/image/kohls/2010855_ALT2?wid=50&amp;hei=50&amp;op_sharpen=1</url>
+                        <width>50</width>
+                    </image>
+                    <image>
+                        <altText>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</altText>
+                        <height>50</height>
+                        <url>https://media.kohlsimg.com/is/image/kohls/2010855_ALT3?wid=50&amp;hei=50&amp;op_sharpen=1</url>
+                        <width>50</width>
+                    </image>
+                    <image>
+                        <altText>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</altText>
+                        <height>50</height>
+                        <url>https://media.kohlsimg.com/is/image/kohls/2010855_ALT5?wid=50&amp;hei=50&amp;op_sharpen=1</url>
+                        <width>50</width>
+                    </image>
+                </altImages>
+                <avgRating>4.0</avgRating>
+                <isBopusEligible>true</isBopusEligible>
+                <brand>Simply Vera Vera Wang</brand>
+                <careInstructions xsi:nil="true"/>
+                <description>
+                    <longDescription>&lt;p&gt;Enchant her with this Simply Vera Vera Wang diamond ring. An intricate floral design adorned in scintillating diamonds makes it a breathtaking choice. She won't be able to say no to this stunning engagement ring. Ring comes in signature blue and white packaging, including a wooden ring box, satiny pouch, gift box with ribbon, and gift bag.&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;a target="_blank" href="//www.kohls.com/product_videos/html/1304/verabridal.html"&gt;&lt;b&gt;Watch the product video here.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;&lt;/br&gt;&lt;p&gt;RING DETAILS&lt;/p&gt;
+ &lt;ul&gt;&lt;li&gt;Width: 8 mm&lt;/li&gt;
+ &lt;li&gt;Metal: rhodium-plated 14k white gold&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;DIAMOND DETAILS&lt;/p&gt;
+ &lt;ul&gt;&lt;li&gt;Total weight: 1 ct.&lt;/li&gt;
+ &lt;li&gt;Center stone weight: 1/5 ct.&lt;/li&gt;
+ &lt;li&gt;Cut: round brilliant&lt;/li&gt;
+ &lt;li&gt;Color grade: I&lt;/li&gt;
+ &lt;li&gt;Clarity: I2&lt;/li&gt;
+ &lt;li&gt;Setting: prong&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;&lt;em&gt;Image(s) may be enlarged to show detail.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Diamond weights are approximate. Diamond total weights may vary between .01 and .08 ct. Some diamonds have fewer than 17 facets.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Rings are sized upon order. For this reason, please expect an actual delivery date later than the date listed on your order confirmation e-mail.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Please note, due to the high value of this item, a signature may be required upon delivery.&lt;/em&gt;&lt;/p&gt;</longDescription>
+                    <shortDescription xsi:nil="true"/>
+                </description>
+                <exclusions>
+                    <longDescription xsi:nil="true"/>
+                    <shortDescription xsi:nil="true"/>
+                </exclusions>
+                <images>
+                    <image>
+                        <altText>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</altText>
+                        <height>180</height>
+                        <url>https://media.kohlsimg.com/is/image/kohls/2010855_White?wid=180&amp;hei=180&amp;op_sharpen=1</url>
+                        <width>180</width>
+                    </image>
+                </images>
+                <ingredients xsi:nil="true"/>
+                <isLTLProduct>false</isLTLProduct>
+                <isMarketplaceItem>false</isMarketplaceItem>
+                <metaInfo>
+                    <metaDescription>Find this Simply Vera Vera Wang diamond flower engagement ring and more great jewelry at Kohls.com.</metaDescription>
+                    <metaKeywords xsi:nil="true"/>
+                    <metaTitle xsi:nil="true"/>
+                </metaInfo>
+                <monetization>
+                    <adUnit>
+                        <value>/jewelry/rings/engagement_rings</value>
+                    </adUnit>
+                    <ageAppropriate>
+                        <value>adult</value>
+                    </ageAppropriate>
+                    <brand>
+                        <value>simply vera vera wang</value>
+                    </brand>
+                    <feature>
+                        <value>gemstone, fine</value>
+                    </feature>
+                    <gender>
+                        <value>womens</value>
+                    </gender>
+                    <occasion>
+                        <value>engagement</value>
+                    </occasion>
+                    <silhouette>
+                        <value>ring</value>
+                    </silhouette>
+                    <trend>
+                        <value>sparkle &amp; shine</value>
+                    </trend>
+                </monetization>
+                <preSelectedColor>White</preSelectedColor>
+                <price>
+                    <clearancePrice xsi:nil="true"/>
+                    <isSuppressed>false</isSuppressed>
+                    <promotion xsi:nil="true"/>
+                    <regularPrice>Regular $3,500.00</regularPrice>
+                    <regularPriceType>regular</regularPriceType>
+                    <salePrice xsi:nil="true"/>
+                    <salePriceStatus xsi:nil="true"/>
+                </price>
+                <pricingDetails xsi:nil="true"/>
+                <productDetails>&lt;p&gt;Enchant her with this Simply Vera Vera Wang diamond ring. An intricate floral design adorned in scintillating diamonds makes it a breathtaking choice. She won't be able to say no to this stunning engagement ring. Ring comes in signature blue and white packaging, including a wooden ring box, satiny pouch, gift box with ribbon, and gift bag.&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;a target="_blank" href="//www.kohls.com/product_videos/html/1304/verabridal.html"&gt;&lt;b&gt;Watch the product video here.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;&lt;/br&gt;&lt;/br&gt;&lt;p&gt;RING DETAILS&lt;/p&gt;
+ &lt;ul&gt;&lt;li&gt;Width: 8 mm&lt;/li&gt;
+ &lt;li&gt;Metal: rhodium-plated 14k white gold&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;DIAMOND DETAILS&lt;/p&gt;
+ &lt;ul&gt;&lt;li&gt;Total weight: 1 ct.&lt;/li&gt;
+ &lt;li&gt;Center stone weight: 1/5 ct.&lt;/li&gt;
+ &lt;li&gt;Cut: round brilliant&lt;/li&gt;
+ &lt;li&gt;Color grade: I&lt;/li&gt;
+ &lt;li&gt;Clarity: I2&lt;/li&gt;
+ &lt;li&gt;Setting: prong&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;&lt;em&gt;Image(s) may be enlarged to show detail.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Diamond weights are approximate. Diamond total weights may vary between .01 and .08 ct. Some diamonds have fewer than 17 facets.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Rings are sized upon order. For this reason, please expect an actual delivery date later than the date listed on your order confirmation e-mail.&lt;/em&gt;&lt;/p&gt;&lt;/br&gt;&lt;p&gt;&lt;em&gt;Please note, due to the high value of this item, a signature may be required upon delivery.&lt;/em&gt;&lt;/p&gt;</productDetails>
+                <productOffers xsi:nil="true"/>
+                <ratingCount>47</ratingCount>
+                <rebate>
+                    <longDescription xsi:nil="true"/>
+                    <shortDescription xsi:nil="true"/>
+                </rebate>
+                <relatedInformation xsi:nil="true"/>
+                <seoURL>/product/prd-2010855/simply-vera-vera-wang-diamond-flower-engagement-ring-in-14k-white-gold-1-carat-tw.jsp</seoURL>
+                <shippingAndReturn>&lt;/ul&gt;&lt;/br&gt;View our full return policy &lt;a target="_blank" href="https://cs.kohls.com/app/answers/detail/a_id/893/kw/returns/session/L3RpbWUvMTQwNzg2NDIxMC9zaWQvRVpFQmVHX2w%3D"&gt;here.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</shippingAndReturn>
+                <specialEventPriceSummary xsi:nil="true"/>
+                <productStatus>In Stock</productStatus>
+                <styleGuide/>
+                <surcharges/>
+                <swatchImages/>
+                <taxCode>61800</taxCode>
+                <productTitle>Simply Vera Vera Wang Diamond Flower Engagement Ring in 14k White Gold (1 Carat T.W.)</productTitle>
+                <productURL>http://www.kohls.com/product/prd-2010855/product.jsp</productURL>
+                <valueAddedIcons>
+                    <valueAddedIcon>/media/images/bogo_images/bogo_1_1_P_50_v1_m56577569835792921.gif </valueAddedIcon>
+                </valueAddedIcons>
+                <videos/>
+                <webID>2010855</webID>
+            </product>
+        </products>
+    </ns3:payload>
+</ns4:productItemResponse>

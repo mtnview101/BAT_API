@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2806" started-at="2017-02-26T00:39:23Z" finished-at="2017-02-26T00:39:26Z">
+  <suite name="Default suite" duration-ms="2121" started-at="2017-03-01T04:23:54Z" finished-at="2017-03-01T04:23:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2806" started-at="2017-02-26T00:39:23Z" finished-at="2017-02-26T00:39:26Z">
+    <test name="Default test" duration-ms="2121" started-at="2017-03-01T04:23:54Z" finished-at="2017-03-01T04:23:56Z">
       <class name="core.XSDValidationTest">
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="7" started-at="2017-02-25T16:39:23Z" finished-at="2017-02-25T16:39:23Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="8" started-at="2017-02-28T20:23:54Z" finished-at="2017-02-28T20:23:54Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="1508" started-at="2017-02-25T16:39:23Z" data-provider="dp" finished-at="2017-02-25T16:39:25Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="787" started-at="2017-02-28T20:23:54Z" data-provider="dp" finished-at="2017-02-28T20:23:55Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[src/resources/test_data/xsd/bat/bat_t1.xsd]]>
+                <![CDATA[src/resources/test_data/xsd/bat/russian_doll.xsd]]>
               </value>
             </param>
             <param index="2">
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-25T16:39:25Z" finished-at="2017-02-25T16:39:25Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-28T20:23:55Z" finished-at="2017-02-28T20:23:55Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="409" started-at="2017-02-25T16:39:25Z" data-provider="dp" finished-at="2017-02-25T16:39:25Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="269" started-at="2017-02-28T20:23:55Z" data-provider="dp" finished-at="2017-02-28T20:23:55Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-25T16:39:25Z" finished-at="2017-02-25T16:39:25Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-28T20:23:55Z" finished-at="2017-02-28T20:23:55Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="213" started-at="2017-02-25T16:39:25Z" data-provider="dp" finished-at="2017-02-25T16:39:25Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="197" started-at="2017-02-28T20:23:55Z" data-provider="dp" finished-at="2017-02-28T20:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="217" started-at="2017-02-25T16:39:25Z" data-provider="dp" finished-at="2017-02-25T16:39:26Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-28T20:23:56Z" finished-at="2017-02-28T20:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="269" started-at="2017-02-28T20:23:56Z" data-provider="dp" finished-at="2017-02-28T20:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -180,39 +196,7 @@ Expected: <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-25T16:39:25Z" finished-at="2017-02-25T16:39:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-25T16:39:26Z" finished-at="2017-02-25T16:39:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6b2ea799]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="212" started-at="2017-02-25T16:39:26Z" data-provider="dp" finished-at="2017-02-25T16:39:26Z">
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="264" started-at="2017-02-28T20:23:56Z" data-provider="dp" finished-at="2017-02-28T20:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -274,7 +258,7 @@ Expected: <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-25T16:39:26Z" finished-at="2017-02-25T16:39:26Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-28T20:23:56Z" finished-at="2017-02-28T20:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -283,14 +267,14 @@ Expected: <true>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@411f53a0]]>
+                <![CDATA[[Ljava.lang.Object;@6b2ea799]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="186" started-at="2017-02-25T16:39:26Z" data-provider="dp" finished-at="2017-02-25T16:39:26Z">
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="test" duration-ms="269" started-at="2017-02-28T20:23:56Z" data-provider="dp" finished-at="2017-02-28T20:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -352,6 +336,22 @@ Expected: <true>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.XSDValidationTest@cb5822]" test-instance-name="BAT-01.06 (XSD Validation Type # 3)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-28T20:23:56Z" finished-at="2017-02-28T20:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.XSDValidationTest.test(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@411f53a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
       </class> <!-- core.XSDValidationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

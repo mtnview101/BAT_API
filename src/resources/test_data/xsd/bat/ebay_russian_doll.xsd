@@ -1,0 +1,156 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="kadu-response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="server">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="url"/>
+              <xs:element type="xs:string" name="orig-kw"/>
+              <xs:element type="xs:string" name="normalized-kw"/>
+              <xs:element type="xs:string" name="engine"/>
+              <xs:element type="xs:string" name="database"/>
+              <xs:element type="xs:byte" name="lang_id"/>
+              <xs:element type="xs:byte" name="country_id"/>
+              <xs:element type="xs:string" name="kadu-branch"/>
+              <xs:element type="xs:string" name="kadu-version"/>
+              <xs:element type="xs:string" name="kadu-index-info"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="category">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:short" name="form-id"/>
+                    <xs:element type="xs:string" name="name"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="xref"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="count"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="products">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:byte" name="count"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="deals">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="deal" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="id"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:byte" name="impact-score"/>
+                    <xs:element type="xs:byte" name="impact-raw-score"/>
+                    <xs:element type="xs:byte" name="static-score"/>
+                    <xs:element type="xs:short" name="price"/>
+                    <xs:element type="xs:short" name="orig-price"/>
+                    <xs:element type="xs:byte" name="on-sale"/>
+                    <xs:element type="xs:byte" name="on-sale-percent-off"/>
+                    <xs:element type="xs:byte" name="tax"/>
+                    <xs:element type="xs:byte" name="shipping-cost"/>
+                    <xs:element type="xs:byte" name="free-shipping"/>
+                    <xs:element type="xs:byte" name="merchant-ref"/>
+                    <xs:element type="xs:byte" name="authorized-reseller"/>
+                    <xs:element type="xs:byte" name="category-ref"/>
+                    <xs:element type="xs:byte" name="bid"/>
+                    <xs:element type="xs:string" name="bid-level"/>
+                    <xs:element type="xs:byte" name="raw-bid"/>
+                    <xs:element name="addon">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                            <xs:attribute type="xs:byte" name="discount" use="optional"/>
+                            <xs:attribute type="xs:byte" name="cost" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:int" name="crawler-id"/>
+                    <xs:element type="xs:string" name="url"/>
+                    <xs:element type="xs:byte" name="image-location"/>
+                    <xs:element type="xs:short" name="image-height"/>
+                    <xs:element type="xs:short" name="image-width"/>
+                    <xs:element type="xs:int" name="product-id"/>
+                    <xs:element type="xs:string" name="currency"/>
+                    <xs:element type="xs:byte" name="stock-status"/>
+                    <xs:element type="xs:string" name="stock-description"/>
+                    <xs:element type="xs:byte" name="manufacturer-id"/>
+                    <xs:element type="xs:string" name="manufacturer-name"/>
+                    <xs:element type="xs:string" name="sku"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="xref" use="optional"/>
+                  <xs:attribute type="xs:int" name="docId" use="optional"/>
+                  <xs:attribute type="xs:byte" name="score" use="optional"/>
+                  <xs:attribute type="xs:byte" name="indexTier" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="count"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="merchants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="merchant" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:short" name="id"/>
+                    <xs:element type="xs:float" name="review-avg"/>
+                    <xs:element type="xs:short" name="review-count"/>
+                    <xs:element type="xs:byte" name="is-paying"/>
+                    <xs:element type="xs:byte" name="is-certified"/>
+                    <xs:element type="xs:byte" name="homebase-id"/>
+                    <xs:element type="xs:byte" name="has-info"/>
+                    <xs:element type="xs:string" name="phone"/>
+                    <xs:element type="xs:byte" name="has-logo"/>
+                    <xs:element type="xs:string" name="logo-addon"/>
+                    <xs:element type="xs:string" name="phone-addon"/>
+                    <xs:element type="xs:long" name="epi-product-id"/>
+                    <xs:element type="xs:string" name="seo-name"/>
+                    <xs:element type="xs:anyURI" name="store-url"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="xref" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="count"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="display-items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="type"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="xref" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="count"/>
+            <xs:attribute type="xs:short" name="total"/>
+            <xs:attribute type="xs:byte" name="begin-item"/>
+            <xs:attribute type="xs:byte" name="end-item"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:short" name="response-time"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

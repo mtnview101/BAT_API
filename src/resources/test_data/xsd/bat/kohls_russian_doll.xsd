@@ -1,0 +1,189 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="altImages">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="image" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="altText"/>
+                          <xs:element type="xs:byte" name="height"/>
+                          <xs:element type="xs:string" name="url"/>
+                          <xs:element type="xs:byte" name="width"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:float" name="avgRating"/>
+              <xs:element type="xs:string" name="isBopusEligible"/>
+              <xs:element type="xs:string" name="brand"/>
+              <xs:element type="xs:string" name="careInstructions" nillable="true"/>
+              <xs:element name="description">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="longDescription"/>
+                    <xs:element type="xs:string" name="shortDescription" nillable="true"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="exclusions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="longDescription" nillable="true"/>
+                    <xs:element type="xs:string" name="shortDescription" nillable="true"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="images">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="image">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="altText"/>
+                          <xs:element type="xs:short" name="height"/>
+                          <xs:element type="xs:string" name="url"/>
+                          <xs:element type="xs:short" name="width"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="ingredients" nillable="true"/>
+              <xs:element type="xs:string" name="isLTLProduct"/>
+              <xs:element type="xs:string" name="isMarketplaceItem"/>
+              <xs:element name="metaInfo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="metaDescription"/>
+                    <xs:element type="xs:string" name="metaKeywords" nillable="true"/>
+                    <xs:element type="xs:string" name="metaTitle" nillable="true"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="monetization">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="adUnit">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ageAppropriate">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="brand">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="feature">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="gender">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="occasion">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="silhouette">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="trend">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="value"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="preSelectedColor"/>
+              <xs:element name="price">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="clearancePrice" nillable="true"/>
+                    <xs:element type="xs:string" name="isSuppressed"/>
+                    <xs:element type="xs:string" name="promotion" nillable="true"/>
+                    <xs:element type="xs:string" name="regularPrice"/>
+                    <xs:element type="xs:string" name="regularPriceType"/>
+                    <xs:element type="xs:string" name="salePrice" nillable="true"/>
+                    <xs:element type="xs:string" name="salePriceStatus" nillable="true"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="pricingDetails" nillable="true"/>
+              <xs:element type="xs:string" name="productDetails"/>
+              <xs:element type="xs:string" name="productOffers" nillable="true"/>
+              <xs:element type="xs:byte" name="ratingCount"/>
+              <xs:element name="rebate">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="longDescription" nillable="true"/>
+                    <xs:element type="xs:string" name="shortDescription" nillable="true"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="relatedInformation" nillable="true"/>
+              <xs:element type="xs:string" name="seoURL"/>
+              <xs:element type="xs:string" name="shippingAndReturn"/>
+              <xs:element type="xs:string" name="specialEventPriceSummary" nillable="true"/>
+              <xs:element type="xs:string" name="productStatus"/>
+              <xs:element type="xs:string" name="styleGuide"/>
+              <xs:element type="xs:string" name="surcharges"/>
+              <xs:element type="xs:string" name="swatchImages"/>
+              <xs:element type="xs:int" name="taxCode"/>
+              <xs:element type="xs:string" name="productTitle"/>
+              <xs:element type="xs:anyURI" name="productURL"/>
+              <xs:element name="valueAddedIcons">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="valueAddedIcon"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="videos"/>
+              <xs:element type="xs:int" name="webID"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="count" type="xs:byte"/>
+  <xs:element name="limit" type="xs:byte"/>
+  <xs:element name="offset" type="xs:byte"/>
+</xs:schema>
